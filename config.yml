@@ -1,0 +1,1 @@
+#trueにしてもいいけどログがだだだだーって出て壊れても知らないよdebug: falsemessage:  DispKeepOn: '[鯖たん] 表示を固定しました。'  DispKeepOff: '[鯖たん] 表示の固定を解除しました。'ExcludeItems:  - FIREWORK_CHARGE  - FIREWORK  - INK_SACK  - LEATHER_BOOTS  - LEATHER_CHESTPLATE  - LEATHER_HELMET  - LEATHER_LEGGINGSoffset-y: 0

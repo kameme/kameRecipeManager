@@ -1,0 +1,7 @@
+name: kameRecipeManager
+main: kame.kameRecipeManager.Main
+version: beta.1.2
+
+commands:
+  kamerecipe:
+    aliases: [kr, krecipe]
