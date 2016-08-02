@@ -39,8 +39,7 @@ public class KFurnace {
 		ItemStack burnout = out.clone();
 		baseout.setAmount(1);
 		burnout.setAmount(1);
-		if(!baseout.equals(burnout))return false;
-		return true;
+		return baseout.equals(burnout);
 	}
 
 	public static boolean ismatch(ItemStack in1, ItemStack in2, ItemStack out1, ItemStack out2) {
@@ -54,9 +53,7 @@ public class KFurnace {
 		out2 = out2.clone();
 		out1.setAmount(1);
 		out2.setAmount(1);
-		if (!out1.equals(out2))return false;
-
-		return true;
+		return out1.equals(out2);
 	}
 
 	public void resettime() {
